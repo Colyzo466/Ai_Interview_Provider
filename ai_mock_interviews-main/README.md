@@ -1,4 +1,4 @@
-# Prepwise: Your AI-Powered Job Interview Coach
+# Prepwise — Your AI-Powered Job Interview Coach
 
 <div align="center">
   <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="Next.js" />
@@ -11,93 +11,102 @@
 
 ## 🚀 About Prepwise
 
-Prepwise is an innovative platform designed to help job seekers prepare for interviews with the power of AI. Using Vapi AI voice agents, Prepwise simulates real-world interview scenarios, provides instant feedback, and helps you refine your skills. Whether you're a beginner or an experienced professional, Prepwise is your ultimate interview preparation companion.
+**Prepwise** is an AI-driven platform designed to empower job seekers by simulating realistic interview scenarios using cutting-edge voice AI technology. By leveraging Vapi AI voice agents and Google Gemini’s intelligent question generation, Prepwise helps candidates refine their communication skills, sharpen technical knowledge, and build confidence — all from the comfort of their own devices.
+
+Whether you're just starting your career or aiming for a senior position, Prepwise is your smart companion for interview success.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Key Features
 
-- **Next.js**: For building a fast and scalable user interface.
-- **Firebase**: For authentication and real-time data storage.
-- **Tailwind CSS**: For modern and responsive styling.
-- **Vapi AI**: For voice-based AI interview simulations.
-- **Google Gemini**: For generating intelligent interview questions.
-- **Zod**: For schema validation and type safety.
+- 🎤 **AI-Powered Voice Interviews**  
+  Simulate authentic interview conversations with AI voice agents powered by Vapi.
+
+- 🔧 **Customizable Interview Scenarios**  
+  Tailor interview sessions by role, experience level, and desired tech stack.
+
+- 📊 **Real-Time Feedback and Insights**  
+  Receive instant analysis of:
+  - Communication effectiveness  
+  - Technical knowledge  
+  - Problem-solving ability  
+  - Confidence and clarity
+
+- 📈 **Progress Tracking Dashboard**  
+  Manage and review all past interviews in a streamlined, intuitive dashboard.
+
+- 💻 **Modern & Responsive UI**  
+  Built with Tailwind CSS and Next.js to ensure a sleek user experience across all devices.
 
 ---
 
-## 🌟 Features
+## 🧑‍💻 Tech Stack
 
-- **AI-Powered Interviews**: Simulate interviews with Vapi AI voice agents.
-- **Customizable Scenarios**: Tailor interviews based on role, experience level, and tech stack.
-- **Real-Time Feedback**: Get instant feedback on communication, technical knowledge, and more.
-- **Dashboard**: Track your progress and manage past interviews.
-- **Modern UI/UX**: Enjoy a sleek, user-friendly interface.
-- **Fully Responsive**: Works seamlessly across all devices.
+- **Next.js** — Fast, scalable React framework for building dynamic interfaces.  
+- **Firebase** — Robust backend services for authentication and real-time data storage.  
+- **Tailwind CSS** — Utility-first CSS for modern and responsive design.  
+- **Vapi AI** — Voice AI engine for interactive, voice-based interview simulations.  
+- **Google Gemini** — AI-powered question generation tailored to roles and industries.  
+- **Zod** — Schema validation for reliable type-safe development.
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Make sure you have the following tools installed:
+
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-### Installation
+### Installation Steps
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Colyzo466/Ai_Interview_Provider.git
    cd Ai_Interview_Provider
+   ```
 
 2. Install dependencies:
+
+   ```bash
    npm install
+   ```
 
-3. Set up environment variables: Create a .env.local file in the root directory and add the following:
+3. Configure environment variables:  
+Create a `.env.local` file in the root directory and add the following:
 
-NEXT_PUBLIC_VAPI_WEB_TOKEN=
-NEXT_PUBLIC_VAPI_WORKFLOW_ID=
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-FIREBASE_PROJECT_ID=
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
+   ```bash
+   NEXT_PUBLIC_VAPI_WEB_TOKEN=
+   NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+   NEXT_PUBLIC_FIREBASE_API_KEY=
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+   NEXT_PUBLIC_FIREBASE_APP_ID=
+   FIREBASE_PROJECT_ID=
+   FIREBASE_CLIENT_EMAIL=
+   FIREBASE_PRIVATE_KEY=
+   ```
 
-4. Start the development server:
+4. Launch the development server:
 
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
-5. Open the app in your browser: http://localhost:3000
+5. Open your browser and navigate to:  
+   `http://localhost:3000`
 
-📋 Features in Detail
-1. AI-Generated Questions
-Generate interview questions tailored to your role, experience level, and tech stack.
-Powered by Google Gemini and Vapi AI.
+---
 
-2. Voice-Based Interviews
-Conduct mock interviews with AI voice agents for a realistic experience.
+## 📂 Project Structure
 
-3. Feedback and Analysis
-Receive detailed feedback on:
-Communication Skills
-Technical Knowledge
-Problem-Solving
-Confidence and Clarity
-Identify strengths and areas for improvement.
-
-4. Dashboard
-Manage all your interviews in one place.
-Track your progress over time.
-
-📂 Folder Structure
-
+```
 ├── app/
 │   ├── api/
 │   │   └── vapi/
@@ -125,17 +134,30 @@ Track your progress over time.
 │   └── assets/
 ├── types/
 │   └── index.d.ts
+```
 
-🛡️ License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-🤝 Contributing
-We welcome contributions! Feel free to submit issues or pull requests to improve Prepwise.
+## 🛡️ License
 
-📞 Contact
-For any inquiries or support, please reach out to:
+This project is licensed under the [MIT License](LICENSE).
 
-Email: colyzo466@gmail.com
-GitHub: Colyzo466
-Prepwise: Empowering you to ace your next job interview with confidence!
+---
 
+## 🤝 Contributing
+
+We welcome contributions from developers of all skill levels!  
+If you'd like to improve Prepwise, feel free to submit issues or open a pull request.
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration opportunities, please reach out:
+
+- 📧 **Email:** colyzo466@gmail.com  
+- 💻 **GitHub:** [Colyzo466](https://github.com/Colyzo466)
+
+---
+
+**Prepwise** — Empowering you to ace your next interview with confidence.
